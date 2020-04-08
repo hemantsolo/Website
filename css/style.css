@@ -11010,7 +11010,7 @@ h5,
 .owl-carousel.home-slider {
 	position: relative;
 	height: 750px;
-	z-index: 0;
+	z-index: -1;
 }
 .owl-carousel.home-slider .slider-item {
 	background-size: cover;
